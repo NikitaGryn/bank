@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+backend/staticfiles/
+mobile/build/
+mobile/dist/
+build/
+dist/
+.flet/
+.flutter/
+.dart_tool/

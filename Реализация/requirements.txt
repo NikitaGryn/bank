@@ -1,0 +1,6 @@
+Django>=6.0,<6.1
+djangorestframework>=3.17,<4
+django-cors-headers>=4.9,<5
+drf-spectacular>=0.30,<0.31
+flet>=0.86,<0.87
+requests>=2.34,<3

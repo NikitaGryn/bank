@@ -1,0 +1,22 @@
+[project]
+name = "belarusbank-investments"
+version = "1.0.0"
+description = "Responsive Belarusbank brokerage demo client"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.86.0",
+    "requests>=2.31.0",
+]
+
+[tool.flet]
+org = "by.belarusbank.demo"
+product = "Belarusbank Investments"
+company = "Belarusbank Demo"
+copyright = "Copyright (c) 2026 Belarusbank Demo"
+
+[tool.flet.app]
+path = "src"
+module = "main"
+
+[tool.flet.android]
+bundle_id = "by.belarusbank.demo.investments"
